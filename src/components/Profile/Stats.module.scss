@@ -1,0 +1,26 @@
+.stats {
+  color: darkgrey;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  .statsItem {
+    list-style: none;
+    background: rgb(243, 246, 249);
+    border: 1px solid rgb(232, 236, 242);
+    padding-top: 30px;
+    height: 88px;
+    width: 100%;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    .label {
+      color: darkgrey;
+    }
+    .quantity {
+      font-size: 24px;
+      font-weight: 600;
+      color: black;
+    }
+  }
+}
